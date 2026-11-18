@@ -1,0 +1,20 @@
+name: AcesAssassins
+version: 1.0.0
+main: com.acesassassins.AcesAssassins
+api-version: '1.21'
+author: OpenAI
+commands:
+  acesassassins:
+    description: Manage ACE'S ASSASSINS
+    usage: /acesassassins <start|end|cancel|status|points|shop|rules|config>
+    aliases: [aa]
+  leaderboard:
+    description: View the ACE'S ASSASSINS leaderboard
+    usage: /leaderboard [place|remove|refresh]
+permissions:
+  acesassassins.admin:
+    default: op
+  acesassassins.operator:
+    default: op
+  acesassassins.play:
+    default: true

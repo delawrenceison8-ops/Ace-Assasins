@@ -1,0 +1,29 @@
+event:
+  minimum-players: 3
+  allow-rejoining: true
+  compass-name: "&c&lASSASSIN'S COMPASS"
+ranking:
+  points-per-kill: 5.0
+  points-per-revenge-kill: 2.5
+  rule-voucher-cost: 2.0
+  prevent-revenge-farming: true
+particles:
+  enabled: true
+  assassination-duration-ticks: 45
+  winner-duration-ticks: 200
+  radius: 2.8
+  height: 2.4
+  density: 36
+  trail-height: 3.5
+  flash: true
+  # Reference style: cyan/blue particle cloud + bright white sparkle burst.
+  blue-dust-size: 1.35
+  cyan-dust-size: 1.1
+sounds:
+  enabled: true
+  assassination: ENTITY_PLAYER_ATTACK_CRIT
+  winner: UI_TOAST_CHALLENGE_COMPLETE
+winner:
+  reward-name: "&c&lACE OF SPADES"
+  custom-model-data: 2000
+  reward-material: PAPER
